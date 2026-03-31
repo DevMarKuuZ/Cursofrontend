@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículum Vitae - Marco Tillería Risco</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="light-mode">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">Mi CV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Inicio -->
+    <header id="inicio" class="hero-section d-flex align-items-center">
+        <div class="container text-center">
+            <img src="img/foto-perfil.jpg" alt="Foto perfil"
+                class="rounded-circle mb-3 foto-perfil" />
+            <h1 class="mb-1">Marco Tillería Risco</h1>
+            <p class="lead mb-3">Desarrollador Web | Frontend | Ingeniero Constructor</p>
+
+            <button id="btnTema" class="btn btn-outline-light me-2">
+                Cambiar tema claro/oscuro
+            </button>
+            <button id="btnColorSeccion" class="btn btn-success">
+                Cambiar color de sección
+            </button>
+        </div>
+    </header>
+
+    <main class="mt-5 pt-4">
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="py-5 seccion">
+            <div class="container">
+                <h2 class="mb-4 text-center">Sobre mí</h2>
+                <p class="text-center mx-auto" style="max-width: 700px;">
+                    Soy un desarrollador web  junior con la habilidad para crear interfaces modernas,
+                    responsivas y funcionales. Me especializo en HTML, CSS, JavaScript
+                    y frameworks como Bootstrap. 
+                </p>
+            </div>
+        </section>
+
+        <!-- Experiencia -->
+        <section id="experiencia" class="py-5 bg-light seccion">
+            <div class="container">
+                <h2 class="mb-4 text-center">Experiencia Laboral</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h5>Desarrollador Frontend - Freelance</h5>
+                        <small class="text-muted">2025 - Actualidad</small>
+                        <p>
+                            Desarrollo de interfaces responsivas, optimización de rendimiento
+                            y colaboración con equipos de diseño para implementar experiencias
+                            de usuario modernas.
+                        </p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h5>Desarrollador Web - Freelance</h5>
+                        <small class="text-muted">2025 - Actualidad</small>
+                        <p>
+                            Creación de sitios web para pequeños negocios, integración con
+                            redes sociales y mejora de presencia digital.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section id="formacion" class="py-5 seccion">
+            <div class="container">
+                <h2 class="mb-4 text-center">Formación Académica</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h5>Ingeniero Constructor - Instituto Profesional DuocUC</h5>
+                        <small class="text-muted">2013 - 2017</small>
+                        <p>
+                            Descripción breve de la formación, logros relevantes o enfoque
+                            principal de los estudios.
+                        </p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <h5>Desarrollador Frontend</h5>
+                        <small class="text-muted">Kibernum</small>
+                        <p>
+                            Curso orientado a desarrollo web, JavaScript, frameworks o
+                            tecnologías relacionadas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="py-5 bg-light seccion">
+            <div class="container">
+                <h2 class="mb-4 text-center">Habilidades</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Habilidades Técnicas</h5>
+                        <ul>
+                            <li>HTML5, CSS3, Bootstrap</li>
+                            <li>JavaScript, jQuery</li>
+                            <li>Git y GitHub</li>
+                            <li>Diseño responsivo</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Habilidades Blandas</h5>
+                        <ul>
+                            <li>Comunicación efectiva</li>
+                            <li>Trabajo en equipo</li>
+                            <li>Resolución de problemas</li>
+                            <li>Adaptabilidad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="py-5 seccion">
+            <div class="container">
+                <h2 class="mb-4 text-center">Contacto</h2>
+
+                <div class="row mb-4">
+                    <div class="col-md-4 text-center">
+                        <p><strong>Email:</strong> <a href="mailto:correo@ejemplo.com">marcotilleriarisco@gmail.com</a></p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p><strong>Teléfono:</strong> +56 9 7189 6526</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <p>
+                            <strong>Redes:</strong>
+                            <a href="https://github.com/DevMarKuuZ" target="_blank">GitHub</a> |
+                            <a href="https://www.linkedin.com/in/marcotilleriarisco" target="_blank">LinkedIn</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Formulario con validación -->
+                <form id="formContacto" class="mx-auto" style="max-width: 600px;">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" id="nombre" class="form-control" required />
+                        <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="correo" class="form-label">Correo electrónico</label>
+                        <input type="email" id="correo" class="form-control" required />
+                        <div class="invalid-feedback">Ingresa un correo válido.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea id="mensaje" rows="4" class="form-control" required></textarea>
+                        <div class="invalid-feedback">Escribe un mensaje.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">
+                        Enviar mensaje
+                    </button>
+                    <p id="estadoFormulario" class="mt-3 text-center"></p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-3 bg-dark text-white text-center">
+        <small>&copy; 2025 DevMarKuuZ - CV Interactivo</small>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JS propio -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
